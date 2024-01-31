@@ -116,7 +116,17 @@ Digital Blue Ocean dirancang dengan teknologi Laravel sebagai backend, sebuah fr
 ## Contact
 
 <div>
-  <a href="https://www.instagram.com/adearyabmtra">
+  <a href="https://www.instagram.com/aby.dila">
+      <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" alt="Instagram" />
+  </a>
+</div>
+<div>
+  <a href="mailto:bayuyadila02@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+</div>
+
+<a href="https://www.instagram.com/adearyabmtra">
       <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" alt="Instagram" />
   </a>
 </div>
