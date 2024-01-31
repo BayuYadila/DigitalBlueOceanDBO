@@ -116,6 +116,8 @@ Digital Blue Ocean dirancang dengan teknologi Laravel sebagai backend, sebuah fr
 ## Contact
 
 <div>
+
+  ### <h5> Ahmad Bayu Yadila </h5>
   <a href="https://www.instagram.com/aby.dila">
       <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" alt="Instagram" />
   </a>
@@ -126,6 +128,7 @@ Digital Blue Ocean dirancang dengan teknologi Laravel sebagai backend, sebuah fr
   </a>
 </div>
 
+### <h5> Ahmad Bayu Yadila </h5>
 <a href="https://www.instagram.com/adearyabmtra">
       <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" alt="Instagram" />
   </a>
