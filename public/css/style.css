@@ -1,0 +1,526 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-bg1 {
+    background-color: #007F9B;
+    font-family: "montserrat", "roboto", "poppins";  
+    width: 100%; 
+}
+
+/* navbar */
+.navbar {
+    background: linear-gradient(to right, #327D95, #16628C);
+    filter: drop-shadow(2px 2px 2px black);
+}
+/* akhir navbar */
+
+/* footer */
+.footer {
+    background: linear-gradient(to right, #327D95, #16628C);
+    height: 300px;
+}
+
+.footer .footer-content {
+    opacity: 50%;
+}
+/* akhir footer */
+
+/* landing page */
+.container-bg1 .home-page {
+    height: 100vh;
+    padding-top: 60px;
+}
+
+.container-bg1 .content1 {
+    filter: drop-shadow(2px 2px 2px black);
+}
+
+.container-bg1 .header h1 {
+    font-size: 55px; 
+}
+
+.container-bg1 .header h1:last-child {
+    font-size: 64px; 
+}
+
+.container-bg1 .home-page .left-button {
+    width: 237px;
+    height: 46px;
+    background-color: #93B1DE;
+    color: #241C1C;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    transition: all 0.2s;
+}
+
+.container-bg1 .home-page .left-button:hover {
+    font-size: 20px;
+    color: white;
+    background-color: black; 
+}
+
+.container-bg1 .home-page .right-button {
+    width: 237px;
+    height: 46px;
+    background-color: #241C1C;
+    color: #F6F6F6;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+}
+
+.container-bg1 .home-page .right-button:hover {
+    font-size: 20px;
+    color: black;
+    background-color: white; 
+}
+
+.container-bg1 .home-page .content2 {
+    filter: drop-shadow(5px 5px 5px black);
+}
+/* akhir landing page */
+
+/* searchbar */
+.container-bg1 .search-books {
+    height: 30vh;
+    background-color: #07728a;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.container-bg1 .main-text {
+    margin-bottom: 20px;
+    filter: drop-shadow(2px 2px 2px black);
+    text-align: center;
+    color: white;
+    font-size: 21px;
+}
+
+.container-bg1 .btnsearch {
+    background-color: #1E5391;
+}
+
+.container-bg1 .form-control::placeholder {
+    color: rgba(0, 0, 0, 0.2);
+    opacity: 1;
+}
+/* akhir searchbar */
+
+/* viewboard */
+
+.container-bg1 .viewboard {
+    height: 100vh;
+    padding-top: 45px;
+}
+
+.container-bg1 .viewboard .content1 {
+    border-radius: 6px;
+}
+
+.container-bg1 .viewboard .content1-left {
+    background-color: white;
+    border-radius: 6px;
+}
+
+.container-bg1 .viewboard .content1-right {
+    border-radius: 6px;
+    background-color: #CDD1FB;
+}
+
+.container-bg1 .viewboard .main {
+    margin-top: 10px;
+    padding-left: 70px;
+}
+
+.container-bg1 .viewboard .main2 {
+    margin-top: 10px;
+}
+
+.table-spacing th,
+.table-spacing td {
+    padding: 10px 30px;
+}
+
+.container-bg1 .viewboard .kotak {
+    width: 210px;
+    height: 120px;
+    border-radius: 6px;
+    margin: 14px;
+}
+
+.container-bg1 .viewboard .kotak1 {
+    background-color: #08C983;
+}
+
+.container-bg1 .viewboard .kotak2 {
+    background-color: #FF7C60;
+}
+
+.container-bg1 .viewboard .kotak3 {
+    background-color: #BB42F4;
+}
+
+.container-bg1 .viewboard .kotak4 {
+    background-color: #FFCD4B;
+}
+
+.container-bg1 .viewboard .content2-left {
+    border-radius: 6px;
+}
+
+.container-bg1 .viewboard .content2-right {
+    border-radius: 6px;
+}
+
+.container-bg1 table.content2-left tr,
+.container-bg1 table.content2-right tr {
+    border-bottom: 1px solid #ccc;
+}
+
+.container-bg1 table.table-spacing th,
+.container-bg1 table.table-spacing td {
+    padding: 8px;
+    text-align: left;
+}
+/* akhir viewboard */
+
+/* about us */
+.container-bg1 .about-us {
+    min-height: 100vh;
+    background-color: #07728a;
+    padding-top: 60px;
+}
+
+.container-bg1 .about-us .header {
+    font-size: 48px;
+}
+
+.container-bg1 .about-us .header p {
+    font-size: 22px;
+}
+
+.container-bg1 .about-us .main-img {
+    filter: drop-shadow(5px 5px 5px black);
+}
+
+.container-bg1 .about-us .desk {
+    font-size: 22px;
+    text-align: justify;
+}
+/* akhir about us */
+
+/* contact us */
+.container-bg1 .contact-us {
+    height: 100vh;
+    padding-top: 60px;
+}
+
+.container-bg1 .custom-email-link {
+    text-decoration: none;
+    color: white;
+}
+
+.container-bg1 .first-gmail-logo,
+.container-bg1 .second-gmail-logo {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.container-bg1 .bg-contact-us .form-contact-us {
+    background-color: #D9D9D9;
+}
+
+.container-bg1 .img-contact-us {
+    filter: drop-shadow(2px 2px 2px black);
+    -webkit-filter: drop-shadow(2px 2px 2px black);
+}
+
+.container-bg1 .main-img-contact-us {
+    max-width: 100%;
+    height: auto;
+    padding-right: 20px;
+}
+
+.container-bg1 .img-contact-us {
+    filter: drop-shadow(5px 5px 5px black);
+}
+/* akhir contact us */
+
+/* related links */
+.container-bg1 .related-links {
+    height: 100vh;
+    padding-top: 60px;
+    background-color: #07728a;
+}
+
+.container-bg1 .related-links .img-fluid {
+    filter: drop-shadow(2px 2px 2px black);
+}
+/* akhir related links */
+
+/* login page */
+section.login-page {
+    height: 100vh;
+    background-color: #c8cdce;
+    display: grid;
+    place-items: center;
+}
+
+section.login-page .container-main {
+    max-width: 823px;
+}
+
+.separator-line {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.separator-line::before, .separator-line::after {
+    content: "";
+    flex: 1;
+    border-top: 1px solid #000;
+    margin: 0 10px;
+}
+
+section.login-page a {
+    text-decoration: none;
+    color: black;
+}
+/* akhir login page */
+
+/* signup page */
+section.signup-page {
+    height: 100vh;
+    background-color: #c8cdce;
+    display: grid;
+    place-items: center;
+}
+
+section.signup-page .container-main {
+    max-width: 823px;
+}
+
+section.signup-page a {
+    text-decoration: none;
+    color: black;
+}
+/* akhir signup page */
+
+/*dashboard */
+.container-bg2 {
+    background-color: #D5D5D5;
+    font-family: "montserrat", "roboto", "poppins";  
+    width: 100%;
+    padding: 20px;
+}
+/* akhir dashboard */
+
+/* search collections - dashboard */
+.container-bg2 .search-collections .header {
+    display: grid;
+    place-items: center;
+}
+
+.container-bg2 .search-collections .tittle {
+    background-color: #F8F8F8;
+    box-shadow: 0px 0px 5px #AEAEAE;
+}
+
+.container-bg2 .search-collections .author {
+    background-color: #F8F8F8;
+    box-shadow: 0px 0px 5px #AEAEAE;
+}
+
+.container-bg2 .search-collections .year {
+    background-color: #F8F8F8;
+    box-shadow: 0px 0px 5px #AEAEAE;
+}
+
+.container-bg2 .search-collections .subjects {
+    background-color: #F8F8F8;
+    box-shadow: 0px 0px 5px #AEAEAE;
+}
+
+.container-bg2 .search-collections .search {
+    background-color: #1E5391;
+}
+/* search collections - dashboard */
+
+/* admin panel */
+.container-bg2 .admin-panel a {
+    text-decoration: none;
+}
+
+.container-bg2 .admin-panel .divider {
+    color: #000; /* Warna karakter "|" */
+    margin: 0 2px; /* Margin horizontal antara karakter "|" dan teks */
+}
+/* akhir admin panel */
+
+/* manage deposits */
+.container-bg2 .manage-deposits .btn {
+    filter: drop-shadow(0px 1px 1px black);
+}
+
+.container-bg2 .manage-deposits .bg-main-content {
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    filter: drop-shadow(0px 1px 1px black);
+}
+
+.container-bg2 .table-spacing th {
+    background-color: #F7F7F7;
+}
+/* akhir manage deposits */
+
+/* edit item = submission-center */
+.container-bg2 .edit-item .btn {
+    filter: drop-shadow(0px 1px 1px black);
+    -webkit-filter: drop-shadow(0px 1px 1px black);
+}
+
+.container-bg2 .bg-main-content-submissioncenter {
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    filter: drop-shadow(0px 1px 1px black);
+}
+
+.container-bg2 .edit-item .upload-item .text-main-content {
+    text-align: justify;
+}
+/* akhir edit item = submission center */
+
+/* edit item = keywords */
+/* .container-bg2 .bg-main-content-edit-item-keywords {
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    filter: drop-shadow(0px 1px 1px black);
+} */
+
+/* .container-bg2 .bg-main-content-edit-item-keywords .btn:focus {
+    outline: none;
+    box-shadow: none;
+} */
+/* akhir edit item = keywords */
+
+/* edit item = deposits */
+.container-bg2 .bg-main-content-deposits {
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    filter: drop-shadow(0px 1px 1px black);
+}
+
+.container-bg2 .bg-main-content-deposits .main-text-deposits {
+    text-align: justify;
+}
+
+/* akhir edit item = deposits */
+
+/* detail page */
+.container-bg2 .detail-page .main-text {
+    text-align: justify;
+}
+/* akhir detail page */
+
+/* Dashboard - Admin */
+.container-bg2 .dashboard-admin .bg-header {
+    box-shadow: 0px 4px 6px -2px rgba(0,0,0,0.2);
+}
+
+.container-bg2 .dashboard-admin .navigation-menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.container-bg2 .dashboard-admin .btn {
+    filter: drop-shadow(0px 1px 1px black);
+    -webkit-filter: drop-shadow(0px 1px 1px black);
+}
+
+.container-bg2 .dashboard-admin .bg-main-content {
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    filter: drop-shadow(0px 1px 1px black);
+}
+
+.container-bg2 .table-spacing th {
+    background-color: #F7F7F7;
+}
+/* akhir manage deposits */
+
+/* Profile page */
+.container-bg2 .profile-page .bg-main-content {
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    filter: drop-shadow(0px 1px 1px black);
+}
+/* akhir Profile page */
+
+/* Profile-edit-user page */
+.container-bg2 .profile-edit-user .bg-main-content {
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    filter: drop-shadow(0px 1px 1px black);
+}
+
+.container-bg2 .profile-edit-user .bg-main-username {
+    background-color: #1E5391;
+}
+
+.container-bg2 .profile-edit-user .bg-main-account-detail {
+    background-color: #1E5391;
+}
+
+.container-bg2 .profile-edit-user .bg-main-personal-details {
+    background-color: #1E5391;
+}
+/* akhir Profile-edit-user page */
+
+/* review page */
+.container-bg2 .review-admin .bg-main-content {
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    filter: drop-shadow(0px 1px 1px black);
+}
+/* akhir review page */
+
+/* admin status */
+.container-bg2 .admin-status .bg-main-content {
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    filter: drop-shadow(0px 1px 1px black);
+}
+/* akhir admin status */
+
+/* admin create user */
+.container-bg2 .admin-create-user .bg-main-content{
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    filter: drop-shadow(0px 1px 1px black);
+}
+
+.container-bg2 .admin-create-user .bg-main-username {
+    background-color: #1E5391;
+}
+
+.container-bg2 .admin-create-user .bg-main-account-detail {
+    background-color: #1E5391;
+}
+
+.container-bg2 .admin-create-user .bg-main-personal-details {
+    background-color: #1E5391;
+}
+/* akhir admin create user */
+
+/* admin edit keywords */
+.container-bg2 .admin-edit-keywords .bg-main-content{
+    background-color: #F7F7F7;
+    border-radius: 10px;
+    filter: drop-shadow(0px 1px 1px black);
+}
+/* akhir admin edit keywords */
