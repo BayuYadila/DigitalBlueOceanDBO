@@ -14,6 +14,50 @@
     background: linear-gradient(to right, #327D95, #16628C);
     filter: drop-shadow(2px 2px 2px black);
 }
+
+.user-icon {
+    width: 42px;
+    height: 42px;
+}
+
+.btn-icon {
+    padding: 0; /* Menghilangkan padding pada tombol */
+    background-color: transparent !important; /* Membuat latar belakang tombol transparan */
+    border: none; /* Menghilangkan border */
+    outline: none !important; /* Menghapus efek outline */
+}
+
+.dropdown-menu {
+    margin-top: 5px; /* Sesuaikan margin untuk tampilan yang lebih baik */
+    opacity: 0; /* Mulai dengan opasitas nol */
+    visibility: hidden; /* Mulai dengan tidak terlihat */
+    position: absolute; /* Menjadikan posisi absolut */
+    top: calc(100% + 5px); /* Menempatkan di bawah tombol */
+    left: 50%; /* Menempatkan ke tengah secara horizontal */
+    transform: translateX(-50%) translateY(-10px); /* Menggeser ke tengah dan sedikit ke atas */
+    transition: opacity 0.3s ease, visibility 0s linear 0.3s, transform 0.3s ease; /* Menambahkan transisi smooth */
+    z-index: 999; /* Menempatkan di atas konten lain */
+}
+
+.dropdown:hover .dropdown-menu {
+    opacity: 1; /* Munculkan dropdown-menu saat di-hover */
+    visibility: visible; /* Jadikan terlihat saat di-hover */
+    transform: translateX(-50%) translateY(0); /* Menggeser ke tengah dan ke atas */
+    transition-delay: 0s, 0s, 0s; /* Menghapus delay untuk visibility dan transform */
+}
+
+.dropdown-item {
+    transition: background-color 0.3s ease; /* Menambahkan transisi smooth */
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa; /* Warna latar belakang saat di-hover */
+}
+
+.dropdown:hover .user-icon {
+    transform: scale(1.1); /* Membesarkan gambar saat di-hover */
+}
+
 /* akhir navbar */
 
 /* footer */
@@ -113,7 +157,7 @@
 /* viewboard */
 
 .container-bg1 .viewboard {
-    height: 100vh;
+
     padding-top: 45px;
 }
 
@@ -215,8 +259,8 @@
 
 /* contact us */
 .container-bg1 .contact-us {
-    height: 100vh;
-    padding-top: 60px;
+    
+    padding-top: 41px;
 }
 
 .container-bg1 .custom-email-link {

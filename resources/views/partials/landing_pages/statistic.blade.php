@@ -15,7 +15,9 @@
             </tr>
             @foreach($posts as $post)
             <tr>
-              <td>{{ $post->title }}</td>
+              <td style="max-width: 150px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
+                {{ $post->title }}
+            </td>
               <td class="text-center">{{ $post->views_count }}</td>
               <td class="text-center"><a href="{{ route('detail', ['slug' => $post->slug]) }}">More Detail</a></td>
             </tr>
@@ -84,7 +86,9 @@
             </tr>
             @foreach ($topDownloads as $item)                  
             <tr>
-              <td>{{ $item->title }}</td>
+              <td style="max-width: 150px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
+                {{ $item->title }}
+              </td>
               <td class="text-center">{{ $item->download_count }}</td>
             </tr>            
             @endforeach
