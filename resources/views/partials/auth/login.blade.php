@@ -22,7 +22,7 @@
             <p class="text-end">
               <a href="/">Forgot Password?</a>
             </p>
-            <button type="submit" class="btn btn-primary w-100">Sign In</button>
+            <button type="submit" class="btn btn-primary w-100">Sign in</button>
           </form>
           <p class="text-center separator-line mt-3">or</p>
           <div class="d-flex justify-content-center gap-3">

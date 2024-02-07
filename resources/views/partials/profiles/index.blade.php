@@ -1,6 +1,6 @@
 <section class="container profile-page mt-4 bg-white rounded p-3">
     <!-- Header Tittle -->
-            <h5 class="header-tittle pt-4">Users - <span class="text-primary">{{ auth()->user()->name}}</span></h5>
+            <h5 class="header-tittle pt-4">User - <span class="text-primary">{{ auth()->user()->name}}</span></h5>
     <!-- Akhir Header Tittle -->
     
     <!-- Background Main Admin create user -->
@@ -8,7 +8,7 @@
     <!-- Main Content - Account -->
             <div class="main-content-profile">
                 <div class="d-flex justify-content-between align-items-center mb-4">
-                    <h3 class="mb-0">ACCOUNT PROFILE</h3>
+                    <h3 class="mb-0">ACCOUNT PROFIL</h3>
                     <a href="{{ route('edit-profile', ['username' => auth()->user()->username]) }}" class="btn btn-dark text-white">Edit</a>
                 </div>
 

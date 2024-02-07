@@ -18,7 +18,7 @@
                         <input type="text" class="form-control mb-3" id="email" name="email" required placeholder="Email">
                         <input type="text" class="form-control mb-3" id="username" name="username" required placeholder="Username">
                         <input type="password" class="form-control mb-3" id="password" name="password" required placeholder="Password">
-                        <button type="submit" class="btn btn-primary w-100">Sign Up</button>    
+                        <button type="submit" class="btn btn-primary w-100">Sign up</button>    
                     </form>
                     <p class="text-center separator-line mt-3">or</p>
                     <div class="d-flex justify-content-center gap-3">
@@ -29,7 +29,7 @@
                             <img width="25px" src="{{ asset('assets/img_apple.svg') }}" alt="Apple Logo" class="img-fluid">
                         </a>
                     </div>
-                    <p class="text-center mt-4 mb-4">Already  have an account? <a href="/login" class="fw-bold register-now">Sign In</a></p>
+                    <p class="text-center mt-4 mb-4">Already  have an account? <a href="/login" class="fw-bold register-now">Sign in</a></p>
                 </div>
             </div>
             <div class="col-md-6 justify-content-center">

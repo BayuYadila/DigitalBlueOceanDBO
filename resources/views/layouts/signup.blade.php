@@ -19,7 +19,7 @@
     <!-- Logo Tittle -->
     <link rel="icon" href="{{ asset('assets/logo_DBOTulisanBawah.svg') }}" type="image/svg+xml">
 
-    <title>Sign Up - Digital Blue Ocean</title>
+    <title>Sign up - Digital Blue Ocean</title>
   </head>
   <body>
     <section class="signup-page">

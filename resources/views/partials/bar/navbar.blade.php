@@ -29,7 +29,7 @@
         </li>
       </ul>
       @guest
-    <a class="btn btn-outline-info d-flex mx-2" aria-current="page" href="/login">Sign in</a>
+    <a class="btn btn-outline-info d-flex mx-2" aria-current="page" href="/login">Log in</a>
     @else
     <div class="dropdown mx-4">
       <button class="position-relative btn-icon" type="button" id="userDropdown" data-bs-toggle="dropdown" aria-expanded="false">

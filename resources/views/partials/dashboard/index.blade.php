@@ -37,7 +37,7 @@
     <div class="ms-auto order-by-results me-4 d-flex gap-3">
       <form id="sortForm" action="/dashboard" method="GET">
         <label for="sort">Order by results:</label>
-        <select name="sort" id="sort" onchange="submitForm()" class="bg-primary text-white p-1">
+        <select name="sort" id="sort" onchange="submitForm()" class="bg-primary text-white p-1 rounded">
             <option value="recent" {{ request('sort') == 'recent' ? 'selected' : '' }}>recent</option>
             <option value="oldest" {{ request('sort') == 'oldest' ? 'selected' : '' }}>oldest</option>
         </select>
@@ -107,10 +107,12 @@
         @endforeach
       </table>
 
-      <div class="text-center p-3">
+      <div class="text-center d-block p-3">
         @if ($posts->isNotEmpty())            
           <p>Displaying results {{ $posts->firstItem() }} to {{ $posts->lastItem() }} of {{ $posts->total() }}</p>
-          <p>{{ $posts->links() }}</p>
+          <div class="d-flex justify-content-center">
+            <p>{{ $posts->links() }}</p>
+          </div>
         @else
           <p>Displaying results is empty</p>  
         @endif
