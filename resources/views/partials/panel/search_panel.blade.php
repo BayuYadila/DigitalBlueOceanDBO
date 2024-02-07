@@ -1,3 +1,5 @@
+
+
 <!-- Search Collections -->        
 <div class="container bg-white search-collections text-center p-3 rounded">
   <div class="header mt-2">

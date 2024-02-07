@@ -11,7 +11,7 @@
     <div class="container mt-md-5">
         <div class="row">
             <div class="col-md-6">
-                <div class="mb-3 d-grid gap-2 mt-sm-5">
+                <div class="mb-3 d-grid gap-2 mt-sm-2">
                     <form action="/signup" method="post">
                         @csrf
                         <input type="text" class="form-control mb-3" id="name" name="name" required placeholder="Name">
@@ -29,7 +29,7 @@
                             <img width="25px" src="{{ asset('assets/img_apple.svg') }}" alt="Apple Logo" class="img-fluid">
                         </a>
                     </div>
-                    <p class="text-center mt-5 mb-4">Already  have an account? <a href="/login" class="fw-bold register-now">Sign In</a></p>
+                    <p class="text-center mt-4 mb-4">Already  have an account? <a href="/login" class="fw-bold register-now">Sign In</a></p>
                 </div>
             </div>
             <div class="col-md-6 justify-content-center">

@@ -297,11 +297,14 @@
         <!-- Page Range - publication details -->
         <div class="container content-pagerange-publicationdetails mt-5">
           <h5 class="fw-bold text-center">PAGE RANGE :</h5>        
-          <div class="d-flex">            
-            <input type="text" class="form-control" name="fromPage" id="fromPage" placeholder="from" value="{{old('fromPage')}}">          
-            <input type="text" class="form-control" name="toPage" id="toPage" placeholder="to" value="{{old('toPage')}}">        
+          <div class="d-flex align-items-center"> <!-- Menambahkan class align-items-center untuk menyatukan vertikal secara rata -->
+            <input type="text" class="form-control me-2" name="fromPage" id="fromPage" placeholder="from" value="{{ old('fromPage') }}">
+            <h5>-</h5>
+            <hr class="flex-grow-1"> <!-- Menggunakan hr sebagai garis pembatas -->
+            <input type="text" class="form-control ms-2" name="toPage" id="toPage" placeholder="to" value="{{ old('toPage') }}">        
           </div>
         </div>
+        
         <!-- akhir Page Range - publication deta -->
         </div>
 

@@ -1,3 +1,5 @@
+
+
 <section class="container dashboard-admin mt-4 p-2 bg-white rounded">
   {{-- header button --}}
   <div class="bg-header">
@@ -43,20 +45,6 @@
     </div>
 </div>
 
-      
-  {{-- <script>
-    function changeOrder(selectedOrder) {
-      document.getElementById('orderByDropdown').textContent = selectedOrder;
-    }
-  </script>     --}}
-
-  {{-- <form id="sortForm" action="{{ url('/posts') }}" method="GET">
-    <label for="sort">Order by results:</label>
-    <select name="sort" id="sort" onchange="submitForm()">
-        <option value="recent" {{ request('sort') == 'recent' ? 'selected' : '' }}>Recent</option>
-        <option value="oldest" {{ request('sort') == 'oldest' ? 'selected' : '' }}>Oldest</option>
-    </select>
-</form> --}}
 
 <script>
   function submitForm() {
@@ -89,8 +77,6 @@
               @endif
             </td>
             <td><a href="{{ route('detail', ['slug' => $post->slug]) }}">{{$post->title}}</a></td>
-            {{-- <td class="text-center text-nowrap"><a href="/author/{{ $post->author->username }}">{{$post->author->name}}</a></td> --}}
-            {{-- <td class="text-center"><a href="/category/{{ $post->category->slug }}">{{$post->category->name}}</a></td> --}}
             <td class="text-center">
               @foreach ($post->authors as $item)              
               {{$item->firstName}} {{$item->lastName}}<br>

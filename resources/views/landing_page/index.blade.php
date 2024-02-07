@@ -4,6 +4,8 @@
 {{-- Yield container-bg1 --}}
 @section('container-bg1')
 
+@section('title', 'Home')
+
   {{-- Landing Page Contents --}}
   @include('partials.landing_pages.home')
   @include('partials.landing_pages.search_collection')

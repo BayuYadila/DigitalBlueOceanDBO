@@ -18,7 +18,7 @@
       
     <!-- Logo Tittle -->
     <link rel="icon" href="{{ asset('assets/logo_DBOTulisanBawah.svg') }}" type="image/svg+xml">
-    <title>Digital Blue Ocean</title>
+    <title>@yield('title') - Digital Blue Ocean</title>
   </head>
   <body>
     {{-- Navbar --}}
